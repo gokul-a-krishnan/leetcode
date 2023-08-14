@@ -7,9 +7,6 @@ class ListNode:
         self.val = val
         self.next = next
 
-    def __str__(self):
-        return f"List <{self.val}>"
-
 
 class Solution:
     def insertGreatestCommonDivisors(self, head: Optional[ListNode]) -> Optional[ListNode]:
