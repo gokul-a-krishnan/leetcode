@@ -40,5 +40,5 @@ if __name__ == '__main__':
     h = sol.insertGreatestCommonDivisors(head)
     t = h
     while t is not None:
-        # print(t.val)
+        print(t.val)
         t = t.next
