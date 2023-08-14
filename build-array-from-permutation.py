@@ -3,7 +3,7 @@ from typing import List
 
 class Solution:
     def buildArray(self, nums: List[int]) -> List[int]:
-        return [nums[nums[dict(zip(nums, range(len(nums))))[i]]] for i in nums]
+        return [nums[i] for i in nums]
 
 
 sol = Solution()
